@@ -1,0 +1,24 @@
+===BGP Player Wiki AI引导文档===
+知识库分为3类数据目录：
+1./asn/ 全部ASN自治域.md条目
+2./org/ RIR注册机构ORG实体.md条目
+3./people/ RIR备案联系人人物.md条目
+
+【AI读取规则】
+1.优先读取文件名、词条标题、别名、标签做关键词检索；
+2.别名=简称、曾用名、行业叫法；标签=资源分类；
+3.禁止全量加载所有文档，检索命中后仅拉取对应单个md；
+4.文档固定结构：全称→AS名称→别名→标签→简介→详情→备注；
+5.同一实体多RIR注册只存一份文档。
+
+===全库词条索引清单===
+
+
+【ASN】
+- asn/AS4134.md
+
+【ORG】
+- org/ORG-CHINATELECOM-AP.md
+
+【PEOPLE】
+- people/CHINATELECOM-MGR-AP.md
